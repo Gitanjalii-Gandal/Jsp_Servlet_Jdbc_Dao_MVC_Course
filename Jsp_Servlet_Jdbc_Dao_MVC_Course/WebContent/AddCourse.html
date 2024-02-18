@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<link href="${contextPath}/resource/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+<center>
+<form action="AddCourseServlet" method="post">
+<table>
+<center class=" text-primary mt-2 p-2"><b>Course Details</b></center>
+<tr>
+   <td >Course Id</td>
+   <td ><input type="text" name="cid" class="form-control mb-2"></td>
+</tr>
+<tr>
+   <td>Course Name</td>
+   <td><input type="text" name="cname" class="form-control mb-2"></td>
+</tr>
+<tr>
+   <td>Course Fees</td>
+   <td><input type="text" name="cfees" class="form-control mb-2"></td>
+</tr>
+<tr>
+   <td>Course Duration</td>
+   <td><input type="text" name="cduration" class="form-control mb-2"></td>
+</tr>
+<br>
+<tr>
+   <td><input type="reset" class="btn btn-danger mb-2 ml-5 p-2  btn-sm"></td>
+   <td><input type="submit" value="Add Course" class="btn btn-primary mb-2 ml-5 p-2 btn-sm"></td>
+</tr>
+</table>
+</form>
+</center>
+</body>
+</html>

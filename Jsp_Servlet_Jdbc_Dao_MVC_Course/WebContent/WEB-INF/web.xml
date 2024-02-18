@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Jsp_Servlet_Jdbc_Dao_MVC_Course</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>AddCourseServlet</display-name>
+    <servlet-name>AddCourseServlet</servlet-name>
+    <servlet-class>com.mydata.controller.AddCourseServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddCourseServlet</servlet-name>
+    <url-pattern>/AddCourseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UpdateCourseServlet</display-name>
+    <servlet-name>UpdateCourseServlet</servlet-name>
+    <servlet-class>com.mydata.controller.UpdateCourseServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateCourseServlet</servlet-name>
+    <url-pattern>/UpdateCourseServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
